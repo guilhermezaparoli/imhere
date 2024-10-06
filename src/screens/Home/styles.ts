@@ -5,12 +5,13 @@ export const styles = StyleSheet.create({
       backgroundColor: '#131016',
       flex: 1,
       padding: 24,
-      marginTop: 48 
+      
     },
     text: {
       color: '#fff',
       fontWeight: 'bold',
-      fontSize: 18
+      fontSize: 18,
+      marginTop: 48 
     },
     input: {
         height: 56,
@@ -42,6 +43,11 @@ export const styles = StyleSheet.create({
       flexDirection: 'row',
       marginTop: 36,
       marginBottom: 42
+    },
+    listEmptyText: {
+      color: "#fff",
+      fontSize: 14,
+      textAlign: 'center'
     }
     
   });
